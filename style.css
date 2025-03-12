@@ -1,5 +1,6 @@
 * {
     scroll-behavior: smooth;
+    /* margin: auto; */
 }
 
 body {
@@ -28,6 +29,8 @@ a {
 .navbar-container {
     margin: 20px;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .navbar {
@@ -50,7 +53,8 @@ a {
 
 .main-section {
     text-align: center;
-    padding: 200px 50px;
+    padding: 50px;
+    margin: 10%;
 }
 
 .main-title {
@@ -103,6 +107,7 @@ a {
 .featured-section {
     background-color: #1d5d5f;
     padding: 80px 16px;
+    padding-bottom: 100px;
 }
 
 .section-title {
@@ -214,6 +219,7 @@ a {
 .section-title-page4 {
     color: #F2E2B1;
     margin-top: 40px;
+    padding-bottom: 100px;
 }
 
 .iit-information-block {
