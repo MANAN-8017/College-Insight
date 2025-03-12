@@ -367,6 +367,25 @@ a {
     padding: 10px;
 }
 
+@media only screen and (max-width: 2560px) {
+    .navbar {
+        width: 1200px;
+    }
+
+    .main-section {
+        margin: 20vh 10vw;
+    }
+
+    .container {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .description {
+        width: 35%;
+    }
+}
+
 @media only screen and (max-width: 1440px) {
     .navbar {
         width: 90%;
@@ -383,6 +402,25 @@ a {
 
     .description {
         width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    .navbar {
+        width: 1000px;
+    }
+
+    .main-section {
+        margin: 18vh 8vw;
+    }
+
+    .container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .description {
+        width: 45%;
     }
 }
 
