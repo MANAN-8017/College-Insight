@@ -200,3 +200,138 @@ button.compare {
     cursor: pointer;
     border-radius: 5px;
 }
+
+/* Media Queries for Responsive Design */
+
+/* For screens up to 1600px */
+@media (max-width: 1600px) {
+    .header-title {
+        font-size: 2.3rem;
+    }
+
+    .description-iit, .description-ranking {
+        font-size: 1rem;
+    }
+
+    .programs-main-title {
+        font-size: 1.6rem;
+    }
+
+    .program-card p.title {
+        font-size: 1.2rem;
+    }
+
+    .program-card p {
+        font-size: 0.95rem;
+    }
+
+    .admission p {
+        font-size: 1.2rem;
+    }
+
+    .ranking-title {
+        font-size: 2.3rem;
+    }
+
+    tbody {
+        font-size: 1rem;
+    }
+}
+
+/* For screens up to 1200px */
+@media (max-width: 1200px) {
+    .header-title {
+        font-size: 2rem;
+    }
+
+    .description-iit, .description-ranking {
+        font-size: 0.95rem;
+    }
+
+    .programs-main-title {
+        font-size: 1.5rem;
+    }
+
+    .program-card p.title {
+        font-size: 1.1rem;
+    }
+
+    .program-card p {
+        font-size: 0.9rem;
+    }
+
+    .admission p {
+        font-size: 1.1rem;
+    }
+
+    .ranking-title {
+        font-size: 2rem;
+    }
+
+    tbody {
+        font-size: 0.95rem;
+    }
+
+    .program-grid {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+
+    table {
+        width: 90%;
+    }
+
+    .about-rankings {
+        width: 85%;
+    }
+}
+
+/* For screens up to 1080px */
+@media (max-width: 1080px) {
+    .header-title {
+        font-size: 1.8rem;
+    }
+
+    .description-iit, .description-ranking {
+        font-size: 0.9rem;
+    }
+
+    .programs-main-title {
+        font-size: 1.4rem;
+    }
+
+    .program-card p.title {
+        font-size: 1rem;
+    }
+
+    .program-card p {
+        font-size: 0.85rem;
+    }
+
+    .admission p {
+        font-size: 1rem;
+    }
+
+    .ranking-title {
+        font-size: 1.8rem;
+    }
+
+    tbody {
+        font-size: 0.9rem;
+    }
+
+    .program-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    table {
+        width: 95%;
+    }
+
+    .about-rankings {
+        width: 90%;
+    }
+
+    th, td {
+        padding: 12px;
+    }
+}
