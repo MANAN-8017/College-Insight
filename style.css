@@ -368,6 +368,7 @@ a {
     padding: 10px;
 }
 
+/* For screens up to 1600px */
 @media (max-width: 1600px) {
     .navbar {
         width: 90%;
@@ -403,6 +404,7 @@ a {
     }
 }
 
+/* For screens up to 1200px */
 @media (max-width: 1200px) {
     .navbar {
         width: 95%;
@@ -444,6 +446,7 @@ a {
     }
 }
 
+/* For screens up to 1080px */
 @media (max-width: 1080px) {
     .navbar {
         width: 100%;
