@@ -1,0 +1,621 @@
+@media (max-width: 1920px) {
+    /* 1600p and similar large screens */
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1600px) {
+    /* 1440p screens */
+    .main-title {
+        font-size: 3.8rem;
+    }
+    
+    .section-title {
+        font-size: 2.8rem;
+    }
+    
+    .section-title-page3, .section-title-page4 {
+        font-size: 2rem;
+    }
+    
+    .description-text {
+        font-size: 1.1rem;
+    }
+    
+    .navbar {
+        width: 85%;
+    }
+    
+    .info-block-number {
+        padding-right: 120px;
+    }
+    
+    /* IIT/NIT specific pages */
+    .header-title {
+        font-size: 2.3rem;
+    }
+    
+    .description-iit, .description-nit, .description-ranking {
+        font-size: 1rem;
+    }
+    
+    .programs-main-title {
+        font-size: 1.6rem;
+    }
+    
+    .program-card p.title {
+        font-size: 1.2rem;
+    }
+    
+    .program-card p {
+        font-size: 0.95rem;
+    }
+    
+    .admission p {
+        font-size: 1.2rem;
+    }
+    
+    .ranking-title {
+        font-size: 2.3rem;
+    }
+    
+    tbody {
+        font-size: 1rem;
+    }
+    
+    /* IIT-Info page */
+    .section-title-template1, .section-title-template2 {
+        font-size: 3rem;
+    }
+    
+    .description-text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    /* Slightly smaller desktop screens */
+    .main-title {
+        font-size: 3.5rem;
+    }
+    
+    .section-title {
+        font-size: 2.5rem;
+    }
+    
+    .navbar {
+        width: 90%;
+    }
+    
+    .info-block-number {
+        padding-right: 100px;
+    }
+    
+    /* IIT-Info page */
+    .section-title-template1, .section-title-template2 {
+        font-size: 2.8rem;
+    }
+    
+    .text {
+        width: 800px;
+    }
+}
+
+@media (max-width: 1366px) {
+    /* Common laptop screen size */
+    .main-title {
+        font-size: 3.2rem;
+    }
+    
+    .section-title {
+        font-size: 2.3rem;
+    }
+    
+    .main-section {
+        margin: 15vh 6vw;
+    }
+    
+    .info-block-number {
+        padding-right: 80px;
+    }
+    
+    /* IIT-Info page */
+    .section-title-template1, .section-title-template2 {
+        font-size: 2.5rem;
+    }
+    
+    .text {
+        width: 700px;
+    }
+}
+
+@media (max-width: 1280px) {
+    /* 1200p screens */
+    .main-title {
+        font-size: 3rem;
+    }
+    
+    .section-title {
+        font-size: 2.2rem;
+    }
+    
+    .navbar {
+        width: 95%;
+    }
+    
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .institute-box {
+        width: 100%;
+    }
+    
+    .section-title-page3, .section-title-page4 {
+        font-size: 1.8rem;
+    }
+    
+    .info-block-number {
+        padding-right: 60px;
+    }
+    
+    .footer {
+        padding: 60px 30px 30px;
+    }
+    
+    /* IIT/NIT specific pages */
+    .header-title {
+        font-size: 2rem;
+    }
+    
+    .description-iit, .description-nit, .description-ranking {
+        font-size: 0.95rem;
+    }
+    
+    .programs-main-title {
+        font-size: 1.5rem;
+    }
+    
+    .program-card p.title {
+        font-size: 1.1rem;
+    }
+    
+    .program-card p {
+        font-size: 0.9rem;
+    }
+    
+    .admission p {
+        font-size: 1.1rem;
+    }
+    
+    .ranking-title {
+        font-size: 2rem;
+    }
+    
+    tbody {
+        font-size: 0.95rem;
+    }
+    
+    .program-grid {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+    
+    table {
+        width: 90%;
+    }
+    
+    .about-rankings {
+        width: 85%;
+    }
+    
+    /* IIT-Info page */
+    .section-title-template1, .section-title-template2 {
+        font-size: 2.2rem;
+    }
+    
+    .text {
+        width: 600px;
+    }
+    
+    .template1, .template2 {
+        padding: 40px;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 1080px) {
+    /* 1080p screens */
+    .main-title {
+        font-size: 2.8rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .main-section {
+        margin: 12vh 4vw;
+    }
+    
+    .navbar {
+        width: 100%;
+        padding: 8px;
+    }
+    
+    .section-title-page3, .section-title-page4 {
+        font-size: 1.6rem;
+    }
+    
+    .info-block-number {
+        padding-right: 40px;
+    }
+    
+    .footer {
+        padding: 40px 20px 20px;
+    }
+    
+    .footer-title {
+        font-size: 1.1rem;
+    }
+    
+    .footer-content {
+        font-size: 0.9rem;
+    }
+    
+    /* IIT/NIT specific pages */
+    .header-title {
+        font-size: 1.8rem;
+    }
+    
+    .description-iit, .description-nit, .description-ranking {
+        font-size: 0.9rem;
+    }
+    
+    .programs-main-title {
+        font-size: 1.4rem;
+    }
+    
+    .program-card p.title {
+        font-size: 1rem;
+    }
+    
+    .program-card p {
+        font-size: 0.85rem;
+    }
+    
+    .admission p {
+        font-size: 1rem;
+    }
+    
+    .ranking-title {
+        font-size: 1.8rem;
+    }
+    
+    tbody {
+        font-size: 0.9rem;
+    }
+    
+    .program-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    
+    table {
+        width: 95%;
+    }
+    
+    .about-rankings {
+        width: 90%;
+    }
+    
+    th, td {
+        padding: 12px;
+    }
+    
+    /* IIT-Info page */
+    .section-title-template1, .section-title-template2 {
+        font-size: 2rem;
+    }
+    
+    .text {
+        width: 500px;
+    }
+    
+    .template1, .template2 {
+        padding: 30px;
+        gap: 30px;
+    }
+    
+    .img-container {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 1024px) {
+    /* iPad Pro and similar tablets */
+    .main-title {
+        font-size: 2.5rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .main-description {
+        font-size: 1.1rem;
+    }
+    
+    .iit-section, .nit-section {
+        flex-direction: column;
+        padding: 30px;
+    }
+    
+    .section-title-page3, .section-title-page4 {
+        padding: 30px;
+        padding-bottom: 50px;
+    }
+    
+    .iit-information-block, .nit-information-block {
+        margin-top: 20px;
+    }
+    
+    /* IIT-Info page */
+    .template1, .template2 {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .template1 {
+        flex-direction: column-reverse;
+    }
+    
+    .img-container {
+        margin-top: 50px;
+        max-width: 100%;
+    }
+    
+    .section-title-template1, .section-title-template2 {
+        padding: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    /* 720p screens and tablets */
+    .main-title {
+        font-size: 2.2rem;
+    }
+    
+    .section-title {
+        font-size: 1.6rem;
+        margin-left: 20px;
+    }
+    
+    .container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .institute-box {
+        padding: 16px;
+    }
+    
+    .info-block-number {
+        padding-right: 30px;
+    }
+    
+    .footer-section {
+        flex-wrap: wrap;
+    }
+    
+    .footer-container {
+        width: 50%;
+    }
+    
+    /* IIT/NIT specific pages */
+    main {
+        margin-right: 3vw;
+        margin-left: 3vw;
+        padding: 15px;
+    }
+    
+    .program-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    button.download, button.compare {
+        width: 100%;
+    }
+    
+    /* IIT-Info page */
+    .section-title-template1, .section-title-template2 {
+        font-size: 1.8rem;
+    }
+    
+    .description-text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    /* Small tablets and large phones */
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .navbar a {
+        padding: 5px 10px;
+        font-size: 0.9rem;
+    }
+    
+    .main-title {
+        font-size: 1.8rem;
+    }
+    
+    .main-description {
+        font-size: 1rem;
+    }
+    
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .explore-button, .guide-button {
+        width: 100%;
+    }
+    
+    .footer-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-bottom-right ul {
+        justify-content: center;
+    }
+    
+    /* IIT/NIT specific pages */
+    .header-title {
+        font-size: 1.6rem;
+    }
+    
+    .program-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    table {
+        width: 100%;
+    }
+    
+    th, td {
+        padding: 10px;
+        font-size: 0.85rem;
+    }
+    
+    /* IIT-Info page */
+    .section-title-template1, .section-title-template2 {
+        font-size: 1.6rem;
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+    
+    .description-text {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Mobile phones */
+    .main-title {
+        font-size: 1.5rem;
+    }
+    
+    .section-title {
+        font-size: 1.3rem;
+    }
+    
+    .main-description {
+        font-size: 0.9rem;
+    }
+    
+    .section-title-page3, .section-title-page4 {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+    
+    .description-text {
+        font-size: 0.9rem;
+    }
+    
+    .info-block-title, .info-block-title-dark {
+        font-size: 1.1rem;
+        padding: 15px;
+    }
+    
+    .info-block-button, .info-block-button-dark {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+    
+    /* IIT/NIT specific pages */
+    .header-title {
+        font-size: 1.4rem;
+    }
+    
+    .ranking-title {
+        font-size: 1.5rem;
+        padding-top: 50px;
+    }
+    
+    #md1, #md2 {
+        margin-bottom: 30px;
+    }
+    
+    /* IIT-Info page */
+    .section-title-template1, .section-title-template2 {
+        font-size: 1.4rem;
+    }
+    
+    .description-text {
+        font-size: 0.85rem;
+    }
+    
+    .template1, .template2 {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 360px) {
+    /* Small mobile phones */
+    .main-title {
+        font-size: 1.3rem;
+    }
+    
+    .section-title {
+        font-size: 1.1rem;
+    }
+    
+    .navbar a {
+        font-size: 0.8rem;
+        padding: 5px 8px;
+    }
+    
+    /* IIT/NIT specific pages */
+    .header-title {
+        font-size: 1.2rem;
+    }
+    
+    .program-card p.title {
+        font-size: 0.9rem;
+    }
+    
+    .program-card p {
+        font-size: 0.8rem;
+    }
+    
+    /* IIT-Info page */
+    .section-title-template1, .section-title-template2 {
+        font-size: 1.2rem;
+    }
+    
+    .description-text {
+        font-size: 0.8rem;
+    }
+}
