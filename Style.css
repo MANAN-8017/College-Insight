@@ -49,6 +49,11 @@ a {
     padding: 5px 15px;
 }
 
+.navbar a.active:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 /* main-section */
 .main-section {
     text-align: center;

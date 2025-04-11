@@ -1,0 +1,58 @@
+body{
+    /* background-color: #1d5d5f; */
+}
+.contact-hero {
+    padding: 3rem 0;
+    text-align: center;
+}
+  
+.contact-form{
+    min-width: 300px;
+    padding: 2rem;
+    max-width: 1200px;
+    justify-self: center;
+    margin: 0 auto;
+    /* background-color: #F2E2B1; */
+}
+  
+.form-group {
+    margin-bottom: 1.5rem;
+}
+  
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+  
+input, textarea, select {
+    width: 50%;
+    padding: 0.8rem;
+    border: 1px solid #3e3e3b;
+    border-radius: 4px;
+    background-color: #F2E2B1;
+    color: #3e3e3b;
+}
+  
+textarea {
+    resize: vertical;
+}
+  
+button {
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+  
+.info-card {
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+  
+.info-card h3 {
+    margin-top: 0;
+    color: #1d5d5f;
+}
