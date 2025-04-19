@@ -1,18 +1,28 @@
 body{
-    /* background-color: #1d5d5f; */
+    background-color: #1d5d5f;
 }
+main{
+    display: flex;
+    gap: 100px;
+    background-color:  #F2E2B1;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 .contact-hero {
     padding: 3rem 0;
+    padding-top: 0.5rem;
     text-align: center;
 }
-  
+.contact-hero h1{
+    color: white;
+}
 .contact-form{
     min-width: 300px;
     padding: 2rem;
+    flex: 1;
     max-width: 1200px;
-    justify-self: center;
     margin: 0 auto;
-    /* background-color: #F2E2B1; */
 }
   
 .form-group {
@@ -26,14 +36,14 @@ label {
 }
   
 input, textarea, select {
-    width: 50%;
+    width: 100%;
     padding: 0.8rem;
     border: 1px solid #3e3e3b;
     border-radius: 4px;
-    background-color: #F2E2B1;
+    background-color: white;
     color: #3e3e3b;
 }
-  
+
 textarea {
     resize: vertical;
 }
@@ -44,15 +54,22 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
+    color: white;
+    background-color: #1d5d5f;
 }
   
-.info-card {
-    padding: 1.5rem;
-    margin-bottom: 1rem;
-    border-radius: 4px;
+.image{
+    width: 50%;
+    height: auto;
+    align-self: center;
 }
-  
-.info-card h3 {
-    margin-top: 0;
-    color: #1d5d5f;
+
+#image{
+    width: 80%;
+    height: auto;
+    justify-self: center;
+    margin-left: 10%;
+    margin-right: auto;
+    background-image: none;
+
 }
