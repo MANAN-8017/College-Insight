@@ -322,6 +322,18 @@ a {
     background-color: #e0d1a3;
 }
 
+#ibb1{
+    color: #1d5d5f;
+    background-color: #F2E2B1;
+    border: 1px solid #3e3e3b;
+}
+
+#ibb2{
+    color: #F2E2B1;
+    background-color: #1d5d5f;
+    border: 1px solid #F2E2B1;
+}
+
 .stats-container {
     display: flex;
     gap: 20px;

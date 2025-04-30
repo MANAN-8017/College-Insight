@@ -1,0 +1,177 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2E2B1;
+    color: #3e3e3e;
+    overflow-x: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+/* color pallete:  #3e3e3b, #1d5d5f and #F2E2B1 */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: #1d5d5f;
+    margin-bottom: 10px;
+  }
+
+  p.description {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+
+  .filters {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  select {
+    padding: 8px 12px;
+    border: 1px solid #1d5d5f;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .stat-box {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    min-width: 150px;
+  }
+
+  .stat-box h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #1d5d5f;
+  }
+
+  .stat-box p {
+    margin: 5px 0 0;
+    font-size: 0.95rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  }
+
+  th {
+    background-color: #1d5d5f;
+    color: white;
+  }
+
+  .bar {
+    height: 8px;
+    background-color: #1d5d5f;
+    border-radius: 4px;
+  }
+
+  .bar-container {
+    width: 100px;
+    background-color: #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .button-container {
+    margin-top: 20px;
+  }
+
+  button {
+    background-color: #325f5f;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #274a4a;
+  }
+  .about-rankings {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    margin-top: 50px;
+    width: 77%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.about-rankings{
+  margin-bottom: 60px;
+}
+
+.about-rankings p {
+    color: black;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+button.download {
+    background-color: #1d5d5f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.compare {
+    background-color: white;
+    border: 2px solid #1d5d5f;
+    color: #1d5d5f;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
