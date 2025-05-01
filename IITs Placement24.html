@@ -8,6 +8,154 @@
     <link rel="stylesheet" href="Placement.css">
     <link rel="stylesheet" href="Footer.css">
 </head>
+<style>
+    /* Responsive styles */
+/* 1600px and above */
+@media screen and (min-width: 1600px) {
+    .container {
+        max-width: 1400px;
+    }
+    
+    .about-rankings {
+        width: 65%;
+    }
+    
+    table {
+        font-size: 1.05rem;
+    }
+}
+
+/* 1440p (2560x1440) */
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+    .container {
+        max-width: 1300px;
+    }
+    
+    .about-rankings {
+        width: 70%;
+    }
+}
+
+/* 1200p (1920x1200) */
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+    .container {
+        max-width: 1100px;
+    }
+    
+    .about-rankings {
+        width: 75%;
+    }
+    
+    .stat-box {
+        padding: 15px 25px;
+    }
+}
+
+/* 1080p (1920x1080) */
+@media screen and (min-width: 1080px) and (max-width: 1199px) {
+    .container {
+        max-width: 1000px;
+    }
+    
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    .about-rankings {
+        width: 80%;
+    }
+    
+    .stat-box {
+        min-width: 120px;
+        padding: 15px 20px;
+    }
+    
+    th, td {
+        padding: 10px 12px;
+    }
+}
+
+/* 720p (1280x720) */
+@media screen and (max-width: 1079px) {
+    .container {
+        padding: 30px 15px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .filters {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .stats {
+        gap: 20px;
+    }
+    
+    .stat-box {
+        min-width: 100px;
+        padding: 15px;
+    }
+    
+    .about-rankings {
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    
+    th, td {
+        padding: 8px 10px;
+        font-size: 0.9rem;
+    }
+    
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    button, button.download, button.compare {
+        width: 100%;
+    }
+}
+
+/* Mobile devices (below 720p) */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 20px 10px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    p.description {
+        font-size: 1rem;
+    }
+    
+    .stat-box {
+        min-width: 80px;
+        padding: 10px;
+    }
+    
+    .stat-box h2 {
+        font-size: 1.5rem;
+    }
+    
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    .about-rankings {
+        width: 95%;
+        padding: 15px;
+    }
+}
+</style>
 <body>
     
     <!-- navigation bar  -->
