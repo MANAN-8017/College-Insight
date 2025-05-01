@@ -1,12 +1,10 @@
 @media (max-width: 1920px) {
-    /* 1600p and similar large screens */
     body {
         font-size: 16px;
     }
 }
 
 @media (max-width: 1600px) {
-    /* 1440p screens */
     .main-title {
         font-size: 3.8rem;
     }
@@ -75,7 +73,6 @@
 }
 
 @media (max-width: 1440px) {
-    /* Slightly smaller desktop screens */
     .main-title {
         font-size: 3.5rem;
     }
@@ -103,7 +100,6 @@
 }
 
 @media (max-width: 1366px) {
-    /* Common laptop screen size */
     .main-title {
         font-size: 3.2rem;
     }
@@ -131,7 +127,6 @@
 }
 
 @media (max-width: 1280px) {
-    /* 1200p screens */
     .main-title {
         font-size: 3rem;
     }
@@ -226,7 +221,6 @@
 }
 
 @media (max-width: 1080px) {
-    /* 1080p screens */
     .main-title {
         font-size: 2.8rem;
     }
@@ -333,7 +327,6 @@
 }
 
 @media (max-width: 1024px) {
-    /* iPad Pro and similar tablets */
     .main-title {
         font-size: 2.5rem;
     }
@@ -386,7 +379,6 @@
 }
 
 @media (max-width: 768px) {
-    /* 720p screens and tablets */
     .main-title {
         font-size: 2.2rem;
     }
@@ -448,7 +440,6 @@
 }
 
 @media (max-width: 600px) {
-    /* Small tablets and large phones */
     .navbar ul {
         flex-wrap: wrap;
         justify-content: center;
@@ -522,7 +513,6 @@
 }
 
 @media (max-width: 480px) {
-    /* Mobile phones */
     .main-title {
         font-size: 1.5rem;
     }
@@ -583,7 +573,6 @@
 }
 
 @media (max-width: 360px) {
-    /* Small mobile phones */
     .main-title {
         font-size: 1.3rem;
     }

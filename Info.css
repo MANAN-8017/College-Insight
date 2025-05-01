@@ -30,6 +30,10 @@ body{
     margin: 20px auto;
 }
 
+#nit-image, #other-image{
+    margin-top: 80px;
+}
+
 .section-title-template2, .section-title-template1 {
     font-size: 3.5rem;
     font-weight: bold;
